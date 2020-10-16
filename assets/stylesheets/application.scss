@@ -20,13 +20,18 @@ body {
   display: flex;
   flex-direction: column;
 
+  // .form-control{
+  //   width: 90%;
+  // }
+
   .form-search {
     padding: 60px 60px 60px 120px;
-    border: none;
+    // margin: 10px auto;
+    border: 1px solid yellow;
     font-size: 2.6em;
-    box-shadow: none;
+    box-shadow: 2px greenyellow;
     &:focus {
-      box-shadow: none;
+      box-shadow:2px greenyellow ;
     }
   }
 
